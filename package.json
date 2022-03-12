@@ -1,0 +1,27 @@
+{
+  "name": "teatrovivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --serveStatic 'docs' --files '*/.html, */.css'",
+    "test": "nodemon src",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafapelacchi/TeatroVivo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafapelacchi/TeatroVivo/issues"
+  },
+  "homepage": "https://github.com/rafapelacchi/TeatroVivo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
